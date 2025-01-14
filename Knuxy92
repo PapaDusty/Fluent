@@ -5998,7 +5998,7 @@ local ClosureBindings = {
 	end,
 	[49] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(49)return {
 		Name = "Reaper",
-		Accent = Color3.fromRGB(0, 0, 0),
+		Accent = Color3.fromRGB(136, 58, 196),
 
 		AcrylicMain = Color3.fromRGB(20, 20, 20),
 		AcrylicBorder = Color3.fromRGB(8, 8, 8),
@@ -6018,7 +6018,7 @@ local ClosureBindings = {
 
 		SliderRail = Color3.fromRGB(136, 58, 196),
 
-		DropdownFrame = Color3.fromRGB(136, 58, 196),
+		DropdownFrame = Color3.fromRGB(0, 0, 0),
 		DropdownHolder = Color3.fromRGB(136, 58, 196),
 		DropdownBorder = Color3.fromRGB(136, 58, 196),
 		DropdownOption = Color3.fromRGB(136, 58, 196),
