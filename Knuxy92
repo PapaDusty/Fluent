@@ -5998,22 +5998,22 @@ local ClosureBindings = {
 	end,
 	[49] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(49)return {
 		Name = "Reaper",
-		Accent = Color3.fromRGB(60, 165, 165),
+		Accent = Color3.fromRGB(0, 0, 0),
 
 		AcrylicMain = Color3.fromRGB(20, 20, 20),
-		AcrylicBorder = Color3.fromRGB(50, 100, 100),
-		AcrylicGradient = ColorSequence.new(Color3.fromRGB(60, 140, 140), Color3.fromRGB(40, 80, 80)),
+		AcrylicBorder = Color3.fromRGB(8, 8, 8),
+		AcrylicGradient = ColorSequence.new(Color3.fromRGB(8, 8, 8), Color3.fromRGB(8, 8, 8)),
 		AcrylicNoise = 0.92,
 
-		TitleBarLine = Color3.fromRGB(60, 120, 120),
-		Tab = Color3.fromRGB(140, 180, 180),
+		TitleBarLine = Color3.fromRGB(13, 13, 13),
+		Tab = Color3.fromRGB(88, 17, 145),
 
 		Element = Color3.fromRGB(110, 160, 160),
 		ElementBorder = Color3.fromRGB(40, 70, 70),
 		InElementBorder = Color3.fromRGB(80, 110, 110),
 		ElementTransparency = 0.84,
 
-		ToggleSlider = Color3.fromRGB(110, 160, 160),
+		ToggleSlider = Color3.fromRGB(88, 17, 145),
 		ToggleToggled = Color3.fromRGB(0, 0, 0),
 
 		SliderRail = Color3.fromRGB(110, 160, 160),
