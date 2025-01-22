@@ -519,7 +519,7 @@ local ClosureBindings = {
 			Config.TabWidth = Config.TabWidth or 170
 			Config.Size = Config.Size or UDim2.fromOffset(590, 470)
 			Config.Acrylic = false
-			Config.Theme = Config.Theme or "Dark"
+			Config.Theme = Config.Theme or "Dark Violet"
 			Config.MinimizeKey = Config.MinimizeKey or Enum.KeyCode.LeftControl
 
 			if Library.Window then
@@ -2525,7 +2525,7 @@ local ClosureBindings = {
 			if Themes[require(Root).Theme][Property] then
 				return Themes[require(Root).Theme][Property]
 			end
-			return Themes["Dark"][Property]
+			return Themes["Dark Violet"][Property]
 		end
 
 		function Creator.UpdateTheme()
