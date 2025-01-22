@@ -6044,9 +6044,7 @@ local ClosureBindings = {
 		HoverChange = 0.04,
 		}
 	end,
-	[50] = function()
-        local c, U, a2, a3, a4 = b(54)
-        return {
+	[50] = function()function()local maui,script,require,getfenv,setfenv=ImportGlobals(50)return {
             Name = "Dark Violet",
             Accent = Color3.fromRGB(80, 0, 80),
             AcrylicMain = Color3.fromRGB(20, 20, 20),
