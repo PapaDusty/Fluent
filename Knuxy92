@@ -264,7 +264,7 @@ local ObjectTree = {
 						50,
 						"ModuleScript",
 						{
-							"Dark"
+							"Black"
 						}
 					},
 					{
@@ -519,7 +519,7 @@ local ClosureBindings = {
 			Config.TabWidth = Config.TabWidth or 170
 			Config.Size = Config.Size or UDim2.fromOffset(590, 470)
 			Config.Acrylic = false
-			Config.Theme = Config.Theme or "Dark"
+			Config.Theme = Config.Theme or "Black"
 			Config.MinimizeKey = Config.MinimizeKey or Enum.KeyCode.LeftControl
 
 			if Library.Window then
@@ -2525,7 +2525,7 @@ local ClosureBindings = {
 			if Themes[require(Root).Theme][Property] then
 				return Themes[require(Root).Theme][Property]
 			end
-			return Themes["Dark"][Property]
+			return Themes["Black"][Property]
 		end
 
 		function Creator.UpdateTheme()
@@ -6045,7 +6045,7 @@ local ClosureBindings = {
 		}
 	end,
 	[50] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(50)return {
-		Name = "Dark",
+		Name = "Black",
 		Accent = Color3.fromRGB(96, 205, 255),
 
 		AcrylicMain = Color3.fromRGB(60, 60, 60),
